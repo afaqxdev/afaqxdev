@@ -4,6 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=afaqxzahir&label=Profile%20views&color=0e75b6&style=flat" alt="afaqxzahir" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=afaqxzahir" alt="afaqxzahir" /></a> </p>
+<p <a href="https://wa.me/923319791631" target="blank"><img align="center" src="https://cdn.pixabay.com/photo/2016/08/27/03/07/whatsapp-1623579_960_720.png" alt="" height="30" width="40" /></a></p>
 
 - 📫 How to reach me *xdeveloper0@gmail.com*
 
