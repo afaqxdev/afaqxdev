@@ -6,7 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=afaqx" alt="afaqx" /></a> </p>
 
 - 📫 How to reach me *xdeveloper0@gmail.com*
-
+<img align="right" alt="GIF" src="https://firebasestorage.googleapis.com/v0/b/sign-80e5b.appspot.com/o/code.gif?alt=media&token=531a4243-0b8c-48de-8579-9ddd83afaae5" width="500" height="320" />
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/afaqxzahir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="afaqxzahir" height="30" width="40" /></a>
