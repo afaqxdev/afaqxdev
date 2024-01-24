@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Afaq Zahir</h1>
-<h3 align="center" ></h3>Mobile Application Developer | Flutter | Dart | BS Computer Science Final Year</h3>
+<h2 align="center" ></h3>          Mobile Application Developer | Flutter | Dart | BS Computer Science Final Year</h>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=afaqx&label=Profile%20views&color=0e75b6&style=flat" alt="afaqx" /> </p>
 
