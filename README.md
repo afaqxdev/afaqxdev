@@ -15,7 +15,7 @@
 </p>
 
 <div align="center">
-  <img align="right" alt="Coding" width="400" src="https://firebasestorage.googleapis.com/v0/b/sign-80e5b.appspot.com/o/code.gif?alt=media&token=531a4243-0b8c-48de-8579-9ddd83afaae5" />
+<!--   <img align="right" alt="Coding" width="400" src="https://firebasestorage.googleapis.com/v0/b/sign-80e5b.appspot.com/o/code.gif?alt=media&token=531a4243-0b8c-48de-8579-9ddd83afaae5" /> -->
   
   <h3>About Me 🧑‍💻</h3>
   <ul align="left" style="list-style-type: none;">
