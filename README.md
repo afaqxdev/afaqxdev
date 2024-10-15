@@ -8,6 +8,12 @@
   <img src="https://komarev.com/ghpvc/?username=afaqx&label=Profile%20views&color=0e75b6&style=flat" alt="afaqx" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=afaqx&theme=darkhub&column=7&margin-w=15&margin-h=15" alt="afaqx" />
+  </a>
+</p>
+
 <div align="center">
   <img align="right" alt="Coding" width="400" src="https://firebasestorage.googleapis.com/v0/b/sign-80e5b.appspot.com/o/code.gif?alt=media&token=531a4243-0b8c-48de-8579-9ddd83afaae5" />
   
@@ -50,10 +56,15 @@
 </p>
 
 <h3 align="center">GitHub Stats 📊</h3>
-
-![Afaq's GitHub stats](https://github-readme-stats.vercel.app/api?username=afaqx&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=afaqx&layout=compact&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=afaqx&show_icons=true&theme=radical" alt="afaqx's GitHub stats" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=afaqx&theme=radical" alt="afaqx's GitHub streak" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afaqx&layout=compact&theme=radical" alt="afaqx's top languages" />
+</p>
 
 <h3 align="center">Thanks for visiting! 😊</h3>
 <p align="center">
