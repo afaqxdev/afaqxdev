@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=afaqxdev&label=Profile%20views&color=0e75b6&style=flat" alt="afaqxdev" />
+  <img src="https://komarev.com/ghpvc/?username=afaqx&label=Profile%20views&color=0e75b6&style=flat" alt="afaqxdev" />
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@
 <h3 align="center">Connect with me 🌐</h3>
 <p align="center">
   <a href="https://linkedin.com/in/afaq-zahir-98b8a525a" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/afaqxdevzahir" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-  <a href="https://instagram.com/afaqxdevzahir" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://twitter.com/afaqxdev" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <a href="https://instagram.com/afaqxzahir" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://fb.com/afaqzahir.afridin" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
   <a href="https://wa.me/923319791631" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-%25D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
 </p>
