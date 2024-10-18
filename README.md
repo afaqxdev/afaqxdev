@@ -23,7 +23,7 @@
     <li>🔭 Currently working on innovative Flutter projects</li>
     <li>🌱 Constantly expanding my skills in mobile development</li>
     <li>💬 Ask me about Flutter, Dart, and mobile app architecture</li>
-    <li>📫 Reach me at: <a href="mailto:afaqxdevdev@gmail.com">afaqxdevdev@gmail.com</a></li>
+    <li>📫 Reach me at: <a href="mailto:afaqxdev@gmail.com">afaqxdevdev@gmail.com</a></li>
   </ul>
 </div>
 
