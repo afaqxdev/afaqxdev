@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to Afaq Zahir's GitHub Profile! 👋🚀</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Mobile+Application+Developer+at+Metasense+Technology;Flutter+Enthusiast;BS+Computer+Science+Graduate" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Mobile+Application+Developer;Flutter+Enthusiast;BS+Computer+Science+Graduate" alt="Typing SVG" />
 </p>
 
 <p align="center">
