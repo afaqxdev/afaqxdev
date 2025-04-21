@@ -24,6 +24,7 @@
   <li>🧩 Experienced with <b>Stacked Architecture (MVVM), Provider, and GetX</b></li>
   <li>🔥 Proficient in <b>Firebase integration</b> (Auth, Firestore, Cloud Functions, Analytics)</li>
   <li>🔔 Hands-on experience with <b>Local & Push Notifications</b></li>
+  <li>📲 Published apps on <b>Play Store</b> and <b>App Store</b></li>
   <li>🔭 Currently working on innovative and user-centric Flutter projects</li>
   <li>🌱 Continuously learning advanced topics like <b>state management, animations, and performance optimization</b></li>
   <li>💬 Ask me about <b>Flutter, Dart, mobile app architecture, and clean code practices</b></li>
@@ -47,8 +48,8 @@
   <img src="https://img.shields.io/badge/Android-%233DDC84.svg?&style=for-the-badge&logo=android&logoColor=white" alt="Android" />
   <img src="https://img.shields.io/badge/Firebase-%23FFCA28.svg?&style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
   <img src="https://img.shields.io/badge/Git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<!--   <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /> -->
 </p>
 
 <h3 align="center">Design Tools 🎨</h3>
@@ -69,6 +70,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afaqxdev&layout=compact&theme=radical" alt="afaqxdev's top languages" />
 </p>
 
+<h3 align="center">📊 GitHub Contribution Graph</h3>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=afaqxdev&theme=github-compact" alt="GitHub Activity Graph" />
+</p>
 <h3 align="center">Thanks for visiting! 😊</h3>
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
