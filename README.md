@@ -16,15 +16,19 @@
 
 <div align="center">
 <!--   <img align="right" alt="Coding" width="400" src="https://firebasestorage.googleapis.com/v0/b/sign-80e5b.appspot.com/o/code.gif?alt=media&token=531a4243-0b8c-48de-8579-9ddd83afaae5" /> -->
-  <h3>About Me 🧑‍💻</h3>
-  <ul align="left" style="list-style-type: none;">
-    <li>🎓 BS in Computer Science graduate</li>
-    <li>💼 Mobile Application Developer specializing in Flutter</li>
-    <li>🔭 Currently working on innovative Flutter projects</li>
-    <li>🌱 Constantly expanding my skills in mobile development</li>
-    <li>💬 Ask me about Flutter, Dart, and mobile app architecture</li>
-    <li>📫 Reach me at: <a href="mailto:afaqxdev@gmail.com">afaqxdevdev@gmail.com</a></li>
-  </ul>
+ <h3>About Me 🧑‍💻</h3>
+<ul align="left" style="list-style-type: none;">
+  <li>🎓 Bachelor's in Computer Science</li>
+  <li>💼 Mobile Application Developer with a strong focus on <b>Flutter & Dart</b></li>
+  <li>🧠 Specialized in building <b>scalable, high-performance cross-platform apps</b></li>
+  <li>🧩 Experienced with <b>Stacked Architecture (MVVM), Provider, and GetX</b></li>
+  <li>🔥 Proficient in <b>Firebase integration</b> (Auth, Firestore, Cloud Functions, Analytics)</li>
+  <li>🔔 Hands-on experience with <b>Local & Push Notifications</b></li>
+  <li>🔭 Currently working on innovative and user-centric Flutter projects</li>
+  <li>🌱 Continuously learning advanced topics like <b>state management, animations, and performance optimization</b></li>
+  <li>💬 Ask me about <b>Flutter, Dart, mobile app architecture, and clean code practices</b></li>
+  <li>📫 Reach me at: <a href="mailto:afaqxdev@gmail.com">afaqxdev@gmail.com</a></li>
+</ul>
 </div>
 
 <h3 align="center">Connect with me 🌐</h3>
