@@ -45,6 +45,34 @@ I also contribute to the Flutter ecosystem through [technical guides](https://ww
 I've seen enough `lib/services/` folders with 47 files and zero separation of concerns. Here's the structure I enforce on every project:
 
 
+lib/
+├── app/
+│ ├── di/ # Dependency injection (get_it)
+│ ├── router/ # GoRouter configuration
+│ └── app.dart
+├── core/
+│ ├── constants/
+│ ├── theme/
+│ ├── utils/
+│ └── extensions/
+├── features/
+│ ├── auth/
+│ │ ├── data/
+│ │ ├── domain/
+│ │ ├── logic/
+│ │ └── presentation/
+│ ├── home/
+│ │ ├── data/
+│ │ ├── domain/
+│ │ ├── logic/
+│ │ └── presentation/
+│ └── ...
+├── data/
+│ ├── models/ # Freezed/Equatable classes
+│ ├── repositories/ # Abstract + impl
+│ └── data_sources/ # API clients, local DB
+└── main.dart
+
 
 Every feature is a self-contained module. You can delete any feature folder without breaking the app. That's not theory — it's how every project I ship is structured.
 
@@ -93,7 +121,7 @@ Everyone has a ChatGPT wrapper. I've built AI features that actually ship to pro
 
 **GAIA AI** — Dream interpretation app with multi-model LLM routing (ChatGPT / Gemini / Claude), secure API key proxying, and real-time SSE streaming. Zero API keys in the client bundle.
 
-I've written about the architecture [here](https://www.afaqzahir.com/blog/how-to-integrate-llm-models-chatgpt-gemini-flutter-mobile) — it's one of the most detailed guides on LLM integration in Flutter.
+I've written about the architecture [here](https://www.afaqzahir.com/blog/integrate-llm-models-chatgpt-gemini-flutter-mobile) — it's one of the most detailed guides on LLM integration in Flutter.
 
 Key principle: **API keys never touch the client.** Everything routes through a serverless proxy with rate limiting and cost monitoring.
 
