@@ -19,54 +19,15 @@
 
 > **I don't take tickets. I take ownership.** Founders hire me directly — no agency, no project manager — when they need one engineer who owns the app from first call to release.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="assets/services.svg" width="100%" alt="What I do: build something new (30-day MVPs), fix what's broken (memory leaks, UI jank), add AI (ChatGPT, Gemini, Claude streaming), turn Figma designs into 120fps Flutter, build Firebase backends, and take over existing projects."/>
 
-**🚀 Build something new**<br/>
-A 30-day MVP that actually works on launch day — Flutter for iOS and Android from one codebase.
-
-</td>
-<td width="50%" valign="top">
-
-**🩺 Fix what's broken**<br/>
-Memory leaks, UI jank, architecture rot. I rescue Flutter codebases other teams gave up on.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**🧠 Add AI to your product**<br/>
-ChatGPT, Gemini and Claude with real-time streaming — and API keys that never touch the client.
-
-</td>
-<td valign="top">
-
-**🎨 Turn design into product**<br/>
-Pixel-accurate Figma → Flutter, with motion that holds 120fps on mid-range phones.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**🔥 Build the backend**<br/>
-Firebase and Cloud Functions that don't turn into a cost nightmare at scale.
-
-</td>
-<td valign="top">
-
-**🤝 Take over a project**<br/>
-Code audit, migration and a clear plan — then I own it like I'll maintain it myself.
-
-</td>
-</tr>
-</table>
+<img src="assets/bug-blaster.svg" width="100%" alt="Bug Blaster: a pixel ship shoots jank, memory leaks, ANRs, crashes and rebuild storms, turning each into a fix — I hunt the bugs your users would have found."/>
 
 <img src="assets/stats.svg" width="100%" alt="20+ production apps shipped · 4+ years of Flutter · 30+ developers mentored · 5.0 star rating on Fiverr"/>
 
 <img src="assets/h02.svg" width="100%" alt="02 — How I ship"/>
+
+<img src="assets/hot-reload.svg" width="100%" alt="Dart code types itself, hot reload fires, and the phone builds the app piece by piece before shipping to the App Store, Google Play and the web."/>
 
 <img src="assets/terminal.svg" width="100%" alt="Terminal: whoami — Flutter, AI, mobile product engineer. Ship an MVP in 30 days: Discover, Build, Validate, Launch. Profile to 120fps on mid-range Android. Add AI with OpenAI, Gemini and Claude streaming, keys kept server-side. Hire: calendly.com/afaqxdev."/>
 
@@ -104,6 +65,8 @@ Every feature is a self-contained module — delete any feature folder and the a
 </details>
 
 <img src="assets/h03.svg" width="100%" alt="03 — Shipped to the stores"/>
+
+<img src="assets/app-reel.svg" width="100%" alt="A rotating carousel of phones showing TourVista, LQDCNVS, Nest AI, Fluently AI and GAIA AI."/>
 
 | | App | What it does | Get it | Story |
 |:-:|---|---|---|---|
@@ -144,9 +107,6 @@ Every feature is a self-contained module — delete any feature folder and the a
   <img src="https://raw.githubusercontent.com/afaqxdev/afaqxdev/output/snake-light.svg" width="100%" alt="Animated snake eating my GitHub contribution graph"/>
 </picture>
 
-<p align="center">
-  <br/>
-  <b>Got an app idea, or an app that's falling apart?</b><br/>
-  <sub>Replies in 2–4 hours · Peshawar, Pakistan (UTC+5) · working with US / UK / EU startups</sub><br/><br/>
-  <a href="https://calendly.com/afaqxdev"><img src="https://img.shields.io/badge/Let's_build_it_→-C8F135?style=for-the-badge&labelColor=C8F135&color=C8F135" alt="Book a call"/></a>
-</p>
+<br/>
+
+<a href="https://calendly.com/afaqxdev"><img src="assets/cta.svg" width="100%" alt="Got an app idea — or one that's falling apart? Book a call at calendly.com/afaqxdev. Replies in 2–4 hours."/></a>

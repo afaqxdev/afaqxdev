@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="t"><title id="t">A rotating carousel of phones showing apps by Afaq Zahir: TourVista, LQDCNVS, Nest AI, Fluently AI and GAIA AI</title>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}@keyframes reel{0%,16%{transform:translate(1130px,290px) scale(0.55);opacity:0}20%,36%{transform:translate(880px,290px) scale(0.78);opacity:0.6}40%,56%{transform:translate(600px,290px) scale(1);opacity:1}60%,76%{transform:translate(320px,290px) scale(0.78);opacity:0.6}80%,100%{transform:translate(70px,290px) scale(0.55);opacity:0}}.reel{animation:reel 15s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes cap{0%,41%{opacity:0;transform:translateY(8px)}44%,54%{opacity:1;transform:none}57%,100%{opacity:0;transform:translateY(-8px)}}.cap{opacity:0;animation:cap 15s infinite}
+.spark{transform-box:fill-box;transform-origin:center;animation:sp 2.2s ease-in-out infinite}@keyframes sp{0%,100%{transform:scale(.2);opacity:0}50%{transform:scale(1);opacity:1}}
+.shine{animation:shine 3s ease-in-out infinite}@keyframes shine{0%,40%{transform:translateX(-160px)}80%,100%{transform:translateX(160px)}}
+@media (prefers-reduced-motion: reduce){.p0{transform:translate(1130px,290px) scale(0.55);opacity:0}.p1{transform:translate(880px,290px) scale(0.78);opacity:0.6}.p2{transform:translate(600px,290px) scale(1);opacity:1}.p3{transform:translate(320px,290px) scale(0.78);opacity:0.6}.p4{transform:translate(70px,290px) scale(0.55);opacity:0}}@media (prefers-reduced-motion: reduce){*{animation:none!important}.rm-hide{display:none}}</style>
+<defs><clipPath id="cc"><rect width="1200" height="500" rx="24"/></clipPath></defs><rect width="1200" height="500" rx="24" fill="#0C100D"/><rect x=".5" y=".5" width="1199" height="499" rx="23.5" fill="none" stroke="#1F3D2C"/>
+<defs><radialGradient id="floor"><stop offset="0" stop-color="#C8F135" stop-opacity=".35"/><stop offset="1" stop-color="#C8F135" stop-opacity="0"/></radialGradient></defs>
+<g clip-path="url(#cc)">
+<text class="mono" x="40" y="56" font-size="13" letter-spacing="2" fill="#C8F135">● AFAQ ZAHIR · FLUTTER · AI · MOBILE</text>
+<text x="40" y="96" font-size="34" font-weight="800" letter-spacing="-1" fill="#ECF2E8">20+ apps. Shipped, measured, maintained.</text>
+<ellipse cx="600" cy="476" rx="260" ry="26" fill="url(#floor)"/>
+<path class="spark" style="animation-delay:-1.75s" transform="translate(745 124)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-0.51s" transform="translate(466 118)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-1.27s" transform="translate(737 323)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-1.88s" transform="translate(761 387)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-0.46s" transform="translate(627 266)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-0.85s" transform="translate(617 365)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-1.14s" transform="translate(549 280)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-0.54s" transform="translate(689 372)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-0.65s" transform="translate(492 319)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-1.21s" transform="translate(793 303)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-0.70s" transform="translate(644 305)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-1.40s" transform="translate(631 165)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-0.46s" transform="translate(432 223)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/><path class="spark" style="animation-delay:-1.39s" transform="translate(765 329)" d="M0-7L2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#C8F135"/>
+<g class="reel p0" style="animation-delay:-0s">
+  <defs><linearGradient id="g0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E8A7E"/><stop offset="1" stop-color="#103A4F"/></linearGradient><clipPath id="sc0"><rect x="-92" y="-172" width="184" height="344" rx="26"/></clipPath></defs>
+  <rect x="-100" y="-180" width="200" height="360" rx="34" fill="#0C100D" stroke="#C8F135" stroke-width="2"/>
+  <g clip-path="url(#sc0)"><rect x="-92" y="-172" width="184" height="344" fill="url(#g0)"/>
+    <rect x="-130" y="-172" width="60" height="344" fill="#fff" opacity=".12" class="shine" transform="skewX(-20)"/>
+    <rect x="-30" y="-158" width="60" height="14" rx="7" fill="#000" opacity=".5"/>
+    <rect x="-70" y="-120" width="64" height="64" rx="18" fill="#fff" opacity=".95"/><text x="-38" y="-75" font-size="36" font-weight="900" text-anchor="middle" fill="#0E8A7E">T</text>
+    <text x="-70" y="-14" font-size="25" font-weight="800" fill="#fff">TourVista</text>
+    <text x="-70" y="8" font-size="12" fill="#fff" opacity=".8">AI travel guide</text>
+    <rect x="-70" y="30" width="140" height="14" rx="7" fill="#fff" opacity="0.28"/><rect x="-70" y="56" width="110" height="14" rx="7" fill="#fff" opacity="0.22000000000000003"/><rect x="-70" y="82" width="125" height="14" rx="7" fill="#fff" opacity="0.16000000000000003"/>
+    <rect x="-70" y="118" width="140" height="34" rx="17" fill="#C8F135"/><text x="0" y="140" font-size="13" font-weight="800" text-anchor="middle" fill="#0C100D">★ Live on stores</text>
+  </g></g>
+<g class="reel p1" style="animation-delay:-3s">
+  <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7B3FE4"/><stop offset="1" stop-color="#E2457C"/></linearGradient><clipPath id="sc1"><rect x="-92" y="-172" width="184" height="344" rx="26"/></clipPath></defs>
+  <rect x="-100" y="-180" width="200" height="360" rx="34" fill="#0C100D" stroke="#C8F135" stroke-width="2"/>
+  <g clip-path="url(#sc1)"><rect x="-92" y="-172" width="184" height="344" fill="url(#g1)"/>
+    <rect x="-130" y="-172" width="60" height="344" fill="#fff" opacity=".12" class="shine" transform="skewX(-20)"/>
+    <rect x="-30" y="-158" width="60" height="14" rx="7" fill="#000" opacity=".5"/>
+    <rect x="-70" y="-120" width="64" height="64" rx="18" fill="#fff" opacity=".95"/><text x="-38" y="-75" font-size="36" font-weight="900" text-anchor="middle" fill="#7B3FE4">L</text>
+    <text x="-70" y="-14" font-size="25" font-weight="800" fill="#fff">LQDCNVS</text>
+    <text x="-70" y="8" font-size="12" fill="#fff" opacity=".8">4K art for phones &amp; TV</text>
+    <rect x="-70" y="30" width="140" height="14" rx="7" fill="#fff" opacity="0.28"/><rect x="-70" y="56" width="110" height="14" rx="7" fill="#fff" opacity="0.22000000000000003"/><rect x="-70" y="82" width="125" height="14" rx="7" fill="#fff" opacity="0.16000000000000003"/>
+    <rect x="-70" y="118" width="140" height="34" rx="17" fill="#C8F135"/><text x="0" y="140" font-size="13" font-weight="800" text-anchor="middle" fill="#0C100D">★ Live on stores</text>
+  </g></g>
+<g class="reel p2" style="animation-delay:-6s">
+  <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8845A"/><stop offset="1" stop-color="#5B2A4A"/></linearGradient><clipPath id="sc2"><rect x="-92" y="-172" width="184" height="344" rx="26"/></clipPath></defs>
+  <rect x="-100" y="-180" width="200" height="360" rx="34" fill="#0C100D" stroke="#C8F135" stroke-width="2"/>
+  <g clip-path="url(#sc2)"><rect x="-92" y="-172" width="184" height="344" fill="url(#g2)"/>
+    <rect x="-130" y="-172" width="60" height="344" fill="#fff" opacity=".12" class="shine" transform="skewX(-20)"/>
+    <rect x="-30" y="-158" width="60" height="14" rx="7" fill="#000" opacity=".5"/>
+    <rect x="-70" y="-120" width="64" height="64" rx="18" fill="#fff" opacity=".95"/><text x="-38" y="-75" font-size="36" font-weight="900" text-anchor="middle" fill="#E8845A">N</text>
+    <text x="-70" y="-14" font-size="25" font-weight="800" fill="#fff">Nest AI</text>
+    <text x="-70" y="8" font-size="12" fill="#fff" opacity=".8">Private parenting companion</text>
+    <rect x="-70" y="30" width="140" height="14" rx="7" fill="#fff" opacity="0.28"/><rect x="-70" y="56" width="110" height="14" rx="7" fill="#fff" opacity="0.22000000000000003"/><rect x="-70" y="82" width="125" height="14" rx="7" fill="#fff" opacity="0.16000000000000003"/>
+    <rect x="-70" y="118" width="140" height="34" rx="17" fill="#C8F135"/><text x="0" y="140" font-size="13" font-weight="800" text-anchor="middle" fill="#0C100D">★ Live on stores</text>
+  </g></g>
+<g class="reel p3" style="animation-delay:-9s">
+  <defs><linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2F6BFF"/><stop offset="1" stop-color="#1A2B6B"/></linearGradient><clipPath id="sc3"><rect x="-92" y="-172" width="184" height="344" rx="26"/></clipPath></defs>
+  <rect x="-100" y="-180" width="200" height="360" rx="34" fill="#0C100D" stroke="#C8F135" stroke-width="2"/>
+  <g clip-path="url(#sc3)"><rect x="-92" y="-172" width="184" height="344" fill="url(#g3)"/>
+    <rect x="-130" y="-172" width="60" height="344" fill="#fff" opacity=".12" class="shine" transform="skewX(-20)"/>
+    <rect x="-30" y="-158" width="60" height="14" rx="7" fill="#000" opacity=".5"/>
+    <rect x="-70" y="-120" width="64" height="64" rx="18" fill="#fff" opacity=".95"/><text x="-38" y="-75" font-size="36" font-weight="900" text-anchor="middle" fill="#2F6BFF">F</text>
+    <text x="-70" y="-14" font-size="25" font-weight="800" fill="#fff">Fluently AI</text>
+    <text x="-70" y="8" font-size="12" fill="#fff" opacity=".8">Learn languages with OCR</text>
+    <rect x="-70" y="30" width="140" height="14" rx="7" fill="#fff" opacity="0.28"/><rect x="-70" y="56" width="110" height="14" rx="7" fill="#fff" opacity="0.22000000000000003"/><rect x="-70" y="82" width="125" height="14" rx="7" fill="#fff" opacity="0.16000000000000003"/>
+    <rect x="-70" y="118" width="140" height="34" rx="17" fill="#C8F135"/><text x="0" y="140" font-size="13" font-weight="800" text-anchor="middle" fill="#0C100D">★ Live on stores</text>
+  </g></g>
+<g class="reel p4" style="animation-delay:-12s">
+  <defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B2A8C"/><stop offset="1" stop-color="#0B0F2E"/></linearGradient><clipPath id="sc4"><rect x="-92" y="-172" width="184" height="344" rx="26"/></clipPath></defs>
+  <rect x="-100" y="-180" width="200" height="360" rx="34" fill="#0C100D" stroke="#C8F135" stroke-width="2"/>
+  <g clip-path="url(#sc4)"><rect x="-92" y="-172" width="184" height="344" fill="url(#g4)"/>
+    <rect x="-130" y="-172" width="60" height="344" fill="#fff" opacity=".12" class="shine" transform="skewX(-20)"/>
+    <rect x="-30" y="-158" width="60" height="14" rx="7" fill="#000" opacity=".5"/>
+    <rect x="-70" y="-120" width="64" height="64" rx="18" fill="#fff" opacity=".95"/><text x="-38" y="-75" font-size="36" font-weight="900" text-anchor="middle" fill="#3B2A8C">G</text>
+    <text x="-70" y="-14" font-size="25" font-weight="800" fill="#fff">GAIA AI</text>
+    <text x="-70" y="8" font-size="12" fill="#fff" opacity=".8">AI dream journal</text>
+    <rect x="-70" y="30" width="140" height="14" rx="7" fill="#fff" opacity="0.28"/><rect x="-70" y="56" width="110" height="14" rx="7" fill="#fff" opacity="0.22000000000000003"/><rect x="-70" y="82" width="125" height="14" rx="7" fill="#fff" opacity="0.16000000000000003"/>
+    <rect x="-70" y="118" width="140" height="34" rx="17" fill="#C8F135"/><text x="0" y="140" font-size="13" font-weight="800" text-anchor="middle" fill="#0C100D">★ Live on stores</text>
+  </g></g>
+<text class="cap mono" style="animation-delay:-0s" x="1160" y="96" font-size="14" text-anchor="end" fill="#93A398">NOW SHOWING · <tspan fill="#C8F135">TOURVISTA</tspan></text><text class="cap mono" style="animation-delay:-3s" x="1160" y="96" font-size="14" text-anchor="end" fill="#93A398">NOW SHOWING · <tspan fill="#C8F135">LQDCNVS</tspan></text><text class="cap mono" style="animation-delay:-6s" x="1160" y="96" font-size="14" text-anchor="end" fill="#93A398">NOW SHOWING · <tspan fill="#C8F135">NEST AI</tspan></text><text class="cap mono" style="animation-delay:-9s" x="1160" y="96" font-size="14" text-anchor="end" fill="#93A398">NOW SHOWING · <tspan fill="#C8F135">FLUENTLY AI</tspan></text><text class="cap mono" style="animation-delay:-12s" x="1160" y="96" font-size="14" text-anchor="end" fill="#93A398">NOW SHOWING · <tspan fill="#C8F135">GAIA AI</tspan></text>
+</g>
+</svg>

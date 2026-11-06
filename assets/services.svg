@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t"><title id="t">What I do: Build something new — A 30-day MVP that works on launch day — iOS and Android from one Flutter codebase. Fix what's broken — Memory leaks, UI jank, architecture rot. I rescue codebases other teams gave up on. Add AI to your product — ChatGPT, Gemini and Claude with streaming — API keys never touch the client. Turn design into product — Pixel-accurate Figma → Flutter, with motion that holds 120fps on mid-range phones. Build the backend — Firebase and Cloud Functions that don't become a cost nightmare at scale. Take over a project — Code audit, migration and a clear plan — then I own it like I'll maintain it myself.</title>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}.bob{animation:bob 1.6s ease-in-out infinite alternate}@keyframes bob{to{transform:translateY(-5px)}}
+.flick{transform-box:fill-box;transform-origin:top;animation:fk .15s steps(2) infinite}@keyframes fk{50%{transform:scaleY(.55)}}
+.swing{transform-box:fill-box;transform-origin:50% 100%;animation:sw 1.8s ease-in-out infinite alternate}@keyframes sw{from{transform:rotate(-22deg)}to{transform:rotate(22deg)}}
+.beat{transform-box:fill-box;transform-origin:center;animation:bt 1.4s ease-in-out infinite}@keyframes bt{50%{transform:scale(.7) rotate(45deg)}}
+.draw{stroke-dasharray:70;animation:dr 2.4s ease-in-out infinite}@keyframes dr{0%{stroke-dashoffset:70}60%,100%{stroke-dashoffset:0}}
+.led{animation:led 1.2s steps(1) infinite}@keyframes led{50%{opacity:.15}}
+.check{stroke-dasharray:24;animation:ck 2.4s ease-out infinite}@keyframes ck{0%,20%{stroke-dashoffset:24}50%,100%{stroke-dashoffset:0}}
+@keyframes hl0{0%,0.0%,16.7%,100%{stroke:#1F3D2C}2.0%,14.7%{stroke:#C8F135}}.hl0{animation:hl0 9s infinite}
+@keyframes hl1{0%,16.7%,33.3%,100%{stroke:#1F3D2C}18.7%,31.3%{stroke:#C8F135}}.hl1{animation:hl1 9s infinite}
+@keyframes hl2{0%,33.3%,50.0%,100%{stroke:#1F3D2C}35.3%,48.0%{stroke:#C8F135}}.hl2{animation:hl2 9s infinite}
+@keyframes hl3{0%,50.0%,66.7%,100%{stroke:#1F3D2C}52.0%,64.7%{stroke:#C8F135}}.hl3{animation:hl3 9s infinite}
+@keyframes hl4{0%,66.7%,83.3%,100%{stroke:#1F3D2C}68.7%,81.3%{stroke:#C8F135}}.hl4{animation:hl4 9s infinite}
+@keyframes hl5{0%,83.3%,100.0%,100%{stroke:#1F3D2C}85.3%,98.0%{stroke:#C8F135}}.hl5{animation:hl5 9s infinite}@media (prefers-reduced-motion: reduce){*{animation:none!important}.rm-hide{display:none}}</style>
+<rect width="1200" height="420" rx="24" fill="#0C100D"/><rect x=".5" y=".5" width="1199" height="419" rx="23.5" fill="none" stroke="#1F3D2C"/>
+<rect class="hl0" x="30" y="30" width="360" height="170" rx="20" fill="undefined" stroke="#1F3D2C" stroke-width="1.5"/>
+<rect x="52" y="52" width="58" height="58" rx="16" fill="#0C100D" stroke="#1F3D2C"/>
+<g transform="translate(81 81)"><g class="bob"><path d="M0-22C9-13 10 4 7 12H-7C-10 4-9-13 0-22Z" fill="#C8F135"/><circle cy="-6" r="4" fill="#0C100D"/><path d="M-7 4-14 14-7 12ZM7 4 14 14 7 12Z" fill="#C8F135"/><path class="flick" d="M-5 13 0 25 5 13Z" fill="#F2C572"/></g></g>
+<text class="mono" x="368" y="70" font-size="12" text-anchor="end" fill="#34403A">01</text>
+<text x="52" y="142" font-size="20" font-weight="700" fill="#ECF2E8">Build something new</text>
+<text x="52" y="166" font-size="14" fill="#93A398">A 30-day MVP that works on launch day —</text><text x="52" y="186" font-size="14" fill="#93A398">iOS and Android from one Flutter codebase.</text>
+<rect class="hl1" x="420" y="30" width="360" height="170" rx="20" fill="undefined" stroke="#1F3D2C" stroke-width="1.5"/>
+<rect x="442" y="52" width="58" height="58" rx="16" fill="#0C100D" stroke="#1F3D2C"/>
+<g transform="translate(471 81)"><g class="swing"><rect x="-3.5" y="-6" width="7" height="28" rx="3.5" fill="#C8F135"/><circle cy="-12" r="10" fill="#C8F135"/><rect x="-3.5" y="-24" width="7" height="12" fill="undefined"/></g></g>
+<text class="mono" x="758" y="70" font-size="12" text-anchor="end" fill="#34403A">02</text>
+<text x="442" y="142" font-size="20" font-weight="700" fill="#ECF2E8">Fix what's broken</text>
+<text x="442" y="166" font-size="14" fill="#93A398">Memory leaks, UI jank, architecture rot.</text><text x="442" y="186" font-size="14" fill="#93A398">I rescue codebases other teams gave up on.</text>
+<rect class="hl2" x="810" y="30" width="360" height="170" rx="20" fill="undefined" stroke="#1F3D2C" stroke-width="1.5"/>
+<rect x="832" y="52" width="58" height="58" rx="16" fill="#0C100D" stroke="#1F3D2C"/>
+<g transform="translate(861 81)"><g class="beat"><path d="M0-20 5-5 20 0 5 5 0 20-5 5-20 0-5-5Z" fill="#C8F135"/></g><g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="2.4s" repeatCount="indefinite"/><circle cx="18" cy="-14" r="3.5" fill="#ECF2E8"/></g></g>
+<text class="mono" x="1148" y="70" font-size="12" text-anchor="end" fill="#34403A">03</text>
+<text x="832" y="142" font-size="20" font-weight="700" fill="#ECF2E8">Add AI to your product</text>
+<text x="832" y="166" font-size="14" fill="#93A398">ChatGPT, Gemini and Claude with streaming —</text><text x="832" y="186" font-size="14" fill="#93A398">API keys never touch the client.</text>
+<rect class="hl3" x="30" y="224" width="360" height="170" rx="20" fill="undefined" stroke="#1F3D2C" stroke-width="1.5"/>
+<rect x="52" y="246" width="58" height="58" rx="16" fill="#0C100D" stroke="#1F3D2C"/>
+<g transform="translate(81 275)"><path class="draw" d="M-20 12C-12-6-4 18 4 0S16-8 20-14" fill="none" stroke="#C8F135" stroke-width="3" stroke-linecap="round"/><circle cx="20" cy="-14" r="4" fill="#ECF2E8"/></g>
+<text class="mono" x="368" y="264" font-size="12" text-anchor="end" fill="#34403A">04</text>
+<text x="52" y="336" font-size="20" font-weight="700" fill="#ECF2E8">Turn design into product</text>
+<text x="52" y="360" font-size="14" fill="#93A398">Pixel-accurate Figma → Flutter, with motion</text><text x="52" y="380" font-size="14" fill="#93A398">that holds 120fps on mid-range phones.</text>
+<rect class="hl4" x="420" y="224" width="360" height="170" rx="20" fill="undefined" stroke="#1F3D2C" stroke-width="1.5"/>
+<rect x="442" y="246" width="58" height="58" rx="16" fill="#0C100D" stroke="#1F3D2C"/>
+<g transform="translate(471 275)"><rect x="-20" y="-18" width="40" height="10" rx="3" fill="#1F3D2C" stroke="#C8F135" stroke-width="1"/><circle class="led" style="animation-delay:0s" cx="12" cy="-13" r="2.5" fill="#C8F135"/><rect x="-20" y="-5" width="40" height="10" rx="3" fill="#1F3D2C" stroke="#C8F135" stroke-width="1"/><circle class="led" style="animation-delay:0.3s" cx="12" cy="0" r="2.5" fill="#C8F135"/><rect x="-20" y="8" width="40" height="10" rx="3" fill="#1F3D2C" stroke="#C8F135" stroke-width="1"/><circle class="led" style="animation-delay:0.6s" cx="12" cy="13" r="2.5" fill="#C8F135"/></g>
+<text class="mono" x="758" y="264" font-size="12" text-anchor="end" fill="#34403A">05</text>
+<text x="442" y="336" font-size="20" font-weight="700" fill="#ECF2E8">Build the backend</text>
+<text x="442" y="360" font-size="14" fill="#93A398">Firebase and Cloud Functions that don't</text><text x="442" y="380" font-size="14" fill="#93A398">become a cost nightmare at scale.</text>
+<rect class="hl5" x="810" y="224" width="360" height="170" rx="20" fill="undefined" stroke="#1F3D2C" stroke-width="1.5"/>
+<rect x="832" y="246" width="58" height="58" rx="16" fill="#0C100D" stroke="#1F3D2C"/>
+<g transform="translate(861 275)"><path d="M0-20 16-13V0C16 11 8 18 0 21-8 18-16 11-16 0V-13Z" fill="none" stroke="#C8F135" stroke-width="3"/><path class="check" d="M-7 0-1 6 8-5" fill="none" stroke="#C8F135" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text class="mono" x="1148" y="264" font-size="12" text-anchor="end" fill="#34403A">06</text>
+<text x="832" y="336" font-size="20" font-weight="700" fill="#ECF2E8">Take over a project</text>
+<text x="832" y="360" font-size="14" fill="#93A398">Code audit, migration and a clear plan —</text><text x="832" y="380" font-size="14" fill="#93A398">then I own it like I'll maintain it myself.</text>
+</svg>
