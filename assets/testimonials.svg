@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="t"><title id="t">Client testimonials: “Communication was top-notch, and the app was delivered exactly as envisioned.” — Nate Jacob “Prompt delivery with attention to detail. Very supportive and professional.” — Colton Miller “His problem-solving skills, eagerness to learn, and strong work ethic are impressive.” — Syed Ismail Shah “Quick and excellent in Flutter development and team leading.” — Ameer Kakar “Excellent work! Good communicator and very professional.” — Abdullah Hoolif</title>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}@keyframes q0{0%,0.00%{opacity:0;transform:translateX(24px)}3.00%,17.00%{opacity:1;transform:none}20.00%,100%{opacity:0;transform:translateX(-24px)}}.q0{opacity:0;animation:q0 25s infinite}
+@keyframes d0{0%,0.00%,20.00%,100%{fill:#1F3D2C}0.10%,19.90%{fill:#C8F135}}.d0{animation:d0 25s infinite}@keyframes q1{0%,20.00%{opacity:0;transform:translateX(24px)}23.00%,37.00%{opacity:1;transform:none}40.00%,100%{opacity:0;transform:translateX(-24px)}}.q1{opacity:0;animation:q1 25s infinite}
+@keyframes d1{0%,20.00%,40.00%,100%{fill:#1F3D2C}20.10%,39.90%{fill:#C8F135}}.d1{animation:d1 25s infinite}@keyframes q2{0%,40.00%{opacity:0;transform:translateX(24px)}43.00%,57.00%{opacity:1;transform:none}60.00%,100%{opacity:0;transform:translateX(-24px)}}.q2{opacity:0;animation:q2 25s infinite}
+@keyframes d2{0%,40.00%,60.00%,100%{fill:#1F3D2C}40.10%,59.90%{fill:#C8F135}}.d2{animation:d2 25s infinite}@keyframes q3{0%,60.00%{opacity:0;transform:translateX(24px)}63.00%,77.00%{opacity:1;transform:none}80.00%,100%{opacity:0;transform:translateX(-24px)}}.q3{opacity:0;animation:q3 25s infinite}
+@keyframes d3{0%,60.00%,80.00%,100%{fill:#1F3D2C}60.10%,79.90%{fill:#C8F135}}.d3{animation:d3 25s infinite}@keyframes q4{0%,80.00%{opacity:0;transform:translateX(24px)}83.00%,97.00%{opacity:1;transform:none}100.00%,100%{opacity:0;transform:translateX(-24px)}}.q4{opacity:0;animation:q4 25s infinite}
+@keyframes d4{0%,80.00%,100.00%,100%{fill:#1F3D2C}80.10%,99.90%{fill:#C8F135}}.d4{animation:d4 25s infinite}@media (prefers-reduced-motion: reduce){.q0{opacity:1}}@media (prefers-reduced-motion: reduce){*{animation:none!important}.rm-hide{display:none}}</style>
+<rect width="1200" height="230" rx="24" fill="#0C100D"/><rect x=".5" y=".5" width="1199" height="229" rx="23.5" fill="none" stroke="#1F3D2C"/>
+<text x="34" y="150" font-size="150" style="font-family:Georgia,'Times New Roman',serif" font-weight="700" fill="#C8F135">“</text>
+<g class="q0">
+  <text x="140" y="96" font-size="27" font-weight="600" fill="#ECF2E8">Communication was top-notch, and the app was delivered exactly as envisioned.</text>
+  <text class="mono" x="140" y="146" font-size="14" letter-spacing="1.5" fill="#C8F135">NATE JACOB</text>
+  <text class="mono" x="140" y="170" font-size="13" fill="#93A398">Client, United Kingdom</text>
+</g>
+<g class="q1">
+  <text x="140" y="96" font-size="27" font-weight="600" fill="#ECF2E8">Prompt delivery with attention to detail. Very supportive and professional.</text>
+  <text class="mono" x="140" y="146" font-size="14" letter-spacing="1.5" fill="#C8F135">COLTON MILLER</text>
+  <text class="mono" x="140" y="170" font-size="13" fill="#93A398">Client, United States</text>
+</g>
+<g class="q2">
+  <text x="140" y="96" font-size="27" font-weight="600" fill="#ECF2E8">His problem-solving skills, eagerness to learn, and strong work ethic are impressive.</text>
+  <text class="mono" x="140" y="146" font-size="14" letter-spacing="1.5" fill="#C8F135">SYED ISMAIL SHAH</text>
+  <text class="mono" x="140" y="170" font-size="13" fill="#93A398">CEO, Versatile Soft</text>
+</g>
+<g class="q3">
+  <text x="140" y="96" font-size="27" font-weight="600" fill="#ECF2E8">Quick and excellent in Flutter development and team leading.</text>
+  <text class="mono" x="140" y="146" font-size="14" letter-spacing="1.5" fill="#C8F135">AMEER KAKAR</text>
+  <text class="mono" x="140" y="170" font-size="13" fill="#93A398">CEO, Apptex Software Solutions</text>
+</g>
+<g class="q4">
+  <text x="140" y="96" font-size="27" font-weight="600" fill="#ECF2E8">Excellent work! Good communicator and very professional.</text>
+  <text class="mono" x="140" y="146" font-size="14" letter-spacing="1.5" fill="#C8F135">ABDULLAH HOOLIF</text>
+  <text class="mono" x="140" y="170" font-size="13" fill="#93A398">Client, Somalia</text>
+</g>
+<circle class="d0" cx="1080" cy="196" r="5" fill="#1F3D2C"/><circle class="d1" cx="1100" cy="196" r="5" fill="#1F3D2C"/><circle class="d2" cx="1120" cy="196" r="5" fill="#1F3D2C"/><circle class="d3" cx="1140" cy="196" r="5" fill="#1F3D2C"/><circle class="d4" cx="1160" cy="196" r="5" fill="#1F3D2C"/>
+</svg>
