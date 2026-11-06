@@ -16,75 +16,61 @@ ${body}
 const card = (w, h) => `<rect width="${w}" height="${h}" rx="24" fill="${C.bg}"/><rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="23.5" fill="none" stroke="${C.deep}"/>`;
 const save = (name, s) => { writeFileSync(`${out}/${name}`, s); console.log(name, s.length, "bytes"); };
 
-/* ---------- hero ---------- */
+/* ---------- hero: orbit ---------- */
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const roles = ["build production Flutter apps", "ship AI features that stream", "rescue failing codebases", "profile every frame to 120fps", "launch MVPs in 30 days"];
+const roleCss = (T) => roles.map((_, i) => {
+  const s = 100 / roles.length, a = i * s, b = a + s;
+  return `@keyframes r${i}{0%,${a.toFixed(1)}%{opacity:0;transform:translateY(12px)}${(a + 3).toFixed(1)}%,${(b - 3).toFixed(1)}%{opacity:1;transform:none}${b.toFixed(1)}%,100%{opacity:0;transform:translateY(-12px)}}.r${i}{opacity:0;animation:r${i} ${T}s infinite}`;
+}).join("");
+const roleText = (x, y, size = 24) => roles.map((r, i) => `<text class="mono r${i}" x="${x}" y="${y}" font-size="${size}" fill="${C.lime}"><tspan fill="${C.ink}">I </tspan>${esc(r)}<tspan class="caret">_</tspan></text>`).join("");
+const BLINK = `.caret{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}`;
 {
-  const W = 1200, H = 440;
-  const roles = ["build production Flutter apps", "ship AI features that stream", "rescue failing codebases", "profile every frame to 120fps", "launch MVPs in 30 days"];
-  const T = roles.length * 3; // seconds per full cycle
-  const slice = 100 / roles.length;
-  const roleCss = roles.map((_, i) => {
-    const a = i * slice, b = a + slice;
-    return `@keyframes r${i}{0%,${(a).toFixed(2)}%{opacity:0;transform:translateY(14px)}${(a + 3).toFixed(2)}%,${(b - 3).toFixed(2)}%{opacity:1;transform:none}${(b).toFixed(2)}%,100%{opacity:0;transform:translateY(-14px)}}.r${i}{opacity:0;animation:r${i} ${T}s infinite}`;
-  }).join("");
-  // fps graph: a jittery line near the 120 ceiling, drawn twice for a seamless scroll
-  const pts = []; for (let i = 0; i <= 40; i++) { const y = 18 + ((i * 37) % 7) - (i % 5 === 0 ? 4 : 0); pts.push(`${i * 6},${y}`); }
-  const graph = pts.join(" ");
-  const css = `
-.name{clip-path:inset(0 100% 0 0);animation:wipe 1.1s .2s cubic-bezier(.7,0,.2,1) forwards}
-@keyframes wipe{to{clip-path:inset(0 0 0 0)}}
-.fade{opacity:0;animation:fade .8s forwards}@keyframes fade{to{opacity:1}}
-.pulse{transform-origin:72px 86px;animation:pulse 1.8s ease-out infinite}@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(3);opacity:0}}
-.glow{animation:drift 14s ease-in-out infinite alternate}@keyframes drift{to{transform:translate(-260px,60px)}}
-.phone{stroke-dasharray:1100;stroke-dashoffset:1100;animation:draw 1.6s .4s ease-out forwards}@keyframes draw{to{stroke-dashoffset:0}}
-.scroll{animation:scroll 3s linear infinite}@keyframes scroll{to{transform:translateX(-240px)}}
-.bar{transform-box:fill-box;transform-origin:left;animation:bar 2.4s ease-in-out infinite alternate}@keyframes bar{from{transform:scaleX(.35)}to{transform:scaleX(1)}}
-.caret{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
-${roleCss}
-@media (prefers-reduced-motion: reduce){.name{clip-path:none}.fade{opacity:1}.phone{stroke-dashoffset:0}.r0{opacity:1}}`;
+  const card = (w, h) => `<defs><clipPath id="cc"><rect width="${w}" height="${h}" rx="24"/></clipPath></defs><rect width="${w}" height="${h}" rx="24" fill="${C.bg}"/><rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="23.5" fill="none" stroke="${C.deep}"/>`;
+  const W = 1200, H = 460, cx = 880, cy = 230;
+  const stars = Array.from({ length: 70 }, () => `<circle cx="${(rnd() * W).toFixed(0)}" cy="${(rnd() * H).toFixed(0)}" r="${(.6 + rnd() * 1.4).toFixed(1)}" fill="${C.ink}" class="tw" style="animation-delay:-${(rnd() * 4).toFixed(1)}s;animation-duration:${(2 + rnd() * 3).toFixed(1)}s"/>`).join("");
+  const rings = [
+    { r: 95, dur: 16, dir: 1, items: ["Flutter", "Dart", "Riverpod"], hot: false },
+    { r: 155, dur: 26, dir: -1, items: ["Firebase", "Claude", "Gemini", "OpenAI", "Supabase"], hot: false },
+    { r: 215, dur: 40, dir: 1, items: ["TourVista", "LQDCNVS", "Nest AI", "GAIA AI", "Fluently", "Penitans"], hot: true },
+  ];
+  const ringSvg = rings.map(({ r, dur, dir, items, hot }) => {
+    const planets = items.map((s, i) => {
+      const a = (i / items.length) * Math.PI * 2 + r, px = +(cx + r * Math.cos(a)).toFixed(1), py = +(cy + r * Math.sin(a)).toFixed(1);
+      const w = s.length * 7.8 + 22;
+      return `<g><animateTransform attributeName="transform" type="rotate" from="0 ${px} ${py}" to="${-360 * dir} ${px} ${py}" dur="${dur}s" repeatCount="indefinite"/>
+  <rect x="${px - w / 2}" y="${py - 13}" width="${w}" height="26" rx="13" fill="${hot ? C.lime : C.panel}" stroke="${hot ? C.lime : C.line}"/>
+  <text class="mono" x="${px}" y="${py + 4.5}" font-size="13" text-anchor="middle" fill="${hot ? C.bg : C.ink}" font-weight="${hot ? 700 : 400}">${esc(s)}</text></g>`;
+    }).join("\n");
+    return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.deep}" stroke-dasharray="3 6"/>
+<g><animateTransform attributeName="transform" type="rotate" from="0 ${cx} ${cy}" to="${360 * dir} ${cx} ${cy}" dur="${dur}s" repeatCount="indefinite"/>
+${planets}</g>`;
+  }).join("\n");
+  const css = `.tw{animation:tw 3s ease-in-out infinite alternate}@keyframes tw{from{opacity:.1}to{opacity:.9}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}@keyframes pulse{from{transform:scale(1);opacity:.6}to{transform:scale(2.6);opacity:0}}
+.comet{animation:comet 9s linear infinite}@keyframes comet{0%{transform:translate(-200px,-60px);opacity:0}5%{opacity:1}35%{transform:translate(900px,240px);opacity:0}100%{transform:translate(900px,240px);opacity:0}}
+.name{clip-path:inset(0 100% 0 0);animation:wipe 1.1s .2s cubic-bezier(.7,0,.2,1) forwards}@keyframes wipe{to{clip-path:inset(0 0 0 0)}}
+${roleCss(15)}${BLINK}
+@media (prefers-reduced-motion: reduce){.name{clip-path:none}.r0{opacity:1}}`;
   const body = `${card(W, H)}
-<defs>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="${C.deep}" stroke-width="1" opacity=".45"/></pattern>
-  <radialGradient id="g"><stop offset="0" stop-color="${C.lime}" stop-opacity=".28"/><stop offset="1" stop-color="${C.lime}" stop-opacity="0"/></radialGradient>
-  <linearGradient id="fadeGrid" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".55" stop-color="#fff" stop-opacity=".15"/><stop offset="1" stop-color="#fff" stop-opacity=".6"/></linearGradient>
-  <mask id="gm"><rect width="${W}" height="${H}" fill="url(#fadeGrid)"/></mask>
-  <clipPath id="cardclip"><rect width="${W}" height="${H}" rx="24"/></clipPath>
-  <clipPath id="screen"><rect x="915" y="96" width="186" height="80" rx="10"/></clipPath>
-</defs>
-<g clip-path="url(#cardclip)">
-  <rect width="${W}" height="${H}" fill="url(#grid)" mask="url(#gm)"/>
-  <circle class="glow" cx="1000" cy="120" r="320" fill="url(#g)"/>
+<defs><radialGradient id="core"><stop offset="0" stop-color="${C.lime}" stop-opacity=".45"/><stop offset="1" stop-color="${C.lime}" stop-opacity="0"/></radialGradient>
+<linearGradient id="tail" x1="0" x2="1"><stop offset="0" stop-color="${C.lime}" stop-opacity="0"/><stop offset="1" stop-color="${C.lime}"/></linearGradient></defs>
+<g clip-path="url(#cc)">${stars}
+<g class="comet"><line x1="0" y1="0" x2="120" y2="32" stroke="url(#tail)" stroke-width="2"/><circle cx="120" cy="32" r="2.5" fill="${C.lime}"/></g>
+<circle cx="${cx}" cy="${cy}" r="150" fill="url(#core)"/>
+${ringSvg}
+<circle class="pulse" cx="${cx}" cy="${cy}" r="40" fill="none" stroke="${C.lime}" stroke-width="2"/>
+<circle cx="${cx}" cy="${cy}" r="40" fill="${C.lime}"/>
+<text x="${cx}" y="${cy + 11}" font-size="30" font-weight="900" text-anchor="middle" fill="${C.bg}">AZ</text>
 </g>
-
-<circle class="pulse" cx="72" cy="86" r="6" fill="${C.lime}"/><circle cx="72" cy="86" r="6" fill="${C.lime}"/>
-<text class="mono fade" x="90" y="91" font-size="14" letter-spacing="2" fill="${C.lime}" style="animation-delay:.1s">AVAILABLE FOR REMOTE WORK · US / UK / EU</text>
-
-<text class="name" x="62" y="196" font-size="96" font-weight="800" letter-spacing="-3" fill="${C.ink}">Afaq Zahir</text>
-<text class="fade" x="66" y="244" font-size="26" fill="${C.muted}" style="animation-delay:.9s">Flutter · AI · Mobile product engineer</text>
-
-<g class="mono" font-size="28">
-  ${roles.map((r, i) => `<text class="r${i}" x="66" y="314" fill="${C.lime}" style="animation-delay:1.2s"><tspan fill="${C.ink}">I </tspan>${esc(r)}<tspan class="caret">_</tspan></text>`).join("\n  ")}
-</g>
-
-<text class="mono fade" x="66" y="384" font-size="14" letter-spacing="1.5" fill="${C.muted}" style="animation-delay:1.4s">PROOF, NOT PROMISES  ·  PESHAWAR, PK (UTC+5)  ·  AFAQZAHIR.COM</text>
-
-<!-- phone -->
-<rect class="phone" x="900" y="48" width="216" height="352" rx="34" fill="${C.bg}" stroke="${C.lime}" stroke-width="2"/>
-<rect x="976" y="62" width="64" height="16" rx="8" fill="${C.deep}"/>
-<g class="fade" style="animation-delay:1.3s">
-  <rect x="915" y="96" width="186" height="80" rx="10" fill="#111812" stroke="${C.deep}"/>
-  <g clip-path="url(#screen)"><g transform="translate(915 118)"><g class="scroll">
-    <polyline points="${graph}" fill="none" stroke="${C.lime}" stroke-width="2" stroke-linejoin="round"/>
-    <polyline points="${graph}" transform="translate(240 0)" fill="none" stroke="${C.lime}" stroke-width="2" stroke-linejoin="round"/>
-  </g></g></g>
-  <text class="mono" x="925" y="168" font-size="11" fill="${C.muted}">frame budget 8.3ms</text>
-  <text x="915" y="232" font-size="54" font-weight="800" letter-spacing="-2" fill="${C.ink}">120</text>
-  <text class="mono" x="1030" y="232" font-size="15" fill="${C.lime}">FPS</text>
-  <text class="mono" x="917" y="254" font-size="11" fill="${C.muted}">profiled, not guessed</text>
-  ${[0, 1, 2].map((i) => `<rect class="bar" x="917" y="${278 + i * 26}" width="${[180, 140, 160][i]}" height="12" rx="6" fill="${i === 0 ? C.lime : C.deep}" style="animation-delay:${i * .4}s"/>`).join("\n  ")}
-  <rect x="968" y="378" width="80" height="5" rx="2.5" fill="${C.line}"/>
-</g>`;
-  save("hero.svg", svg(W, H, "Afaq Zahir — Flutter, AI and mobile product engineer. Available for remote work.", body, css));
+<text class="mono" x="60" y="92" font-size="13" letter-spacing="2" fill="${C.lime}">● EVERYTHING ORBITS ONE RULE: 120FPS</text>
+<text class="name" x="56" y="182" font-size="84" font-weight="800" letter-spacing="-3" fill="${C.ink}">Afaq Zahir</text>
+<text x="60" y="226" font-size="23" fill="${C.muted}">Flutter · AI · Mobile product engineer</text>
+${roleText(60, 290, 22)}
+<text class="mono" x="60" y="390" font-size="13" letter-spacing="1.5" fill="${C.muted}">20+ APPS IN ORBIT · 4+ YEARS · AFAQZAHIR.COM</text>`;
+  save("hero.svg", svg(W, H, "Afaq Zahir — an orbit of Flutter, AI tools and 20+ shipped apps", body, css));
 }
+
 
 /* ---------- marquee of shipped apps ---------- */
 {

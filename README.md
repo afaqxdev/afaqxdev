@@ -1,6 +1,6 @@
 <!-- Afaq Zahir · Flutter · AI · Mobile product engineer · https://afaqzahir.com -->
 
-<a href="https://afaqzahir.com"><img src="assets/hero.svg" width="100%" alt="Afaq Zahir — Flutter, AI and mobile product engineer. Available for remote work with US, UK and EU teams."/></a>
+<a href="https://afaqzahir.com"><img src="assets/hero.svg" width="100%" alt="Afaq Zahir — Flutter, AI and mobile product engineer. Flutter, AI tools and 20+ shipped apps orbit an AZ core."/></a>
 
 <p align="center">
   <a href="https://calendly.com/afaqxdev"><img src="https://img.shields.io/badge/Book_a_call-C8F135?style=for-the-badge&logo=calendly&logoColor=0C100D&labelColor=C8F135&color=C8F135" alt="Book a call"/></a>
